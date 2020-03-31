@@ -1,13 +1,11 @@
-;(function($) {
-
+(function($) {
   $.fn.unveil = function(threshold, callback) {
-
     var $w = $(window),
-        th = threshold || 0,
-        retina = window.devicePixelRatio > 1,
-        attrib = retina? "data-src-retina" : "data-src",
-        images = this,
-        loaded;
+      th = threshold || 0,
+      retina = window.devicePixelRatio > 1,
+      attrib = retina ? "data-src-retina" : "data-src",
+      images = this,
+      loaded;
 
     this.one("unveil", function() {
       var source = this.getAttribute(attrib);
@@ -24,9 +22,9 @@
         if ($e.is(":hidden")) return;
 
         var wt = $w.scrollTop(),
-            wb = wt + $w.height(),
-            et = $e.offset().top,
-            eb = et + $e.height();
+          wb = wt + $w.height(),
+          et = $e.offset().top,
+          eb = et + $e.height();
 
         return eb >= wt - th && et <= wb + th;
       });
@@ -40,7 +38,5 @@
     unveil();
 
     return this;
-
   };
-
 })(window.jQuery || window.Zepto);
