@@ -335,9 +335,9 @@ address {
     padding-left: 15px
 }
 
-@media(min-width:768px) {
+@media(min-width:469px) {
     .container {
-        max-width: 750px
+        max-width: 750px;
     }
     .col-sm-4, .col-sm-6 {
         float: left
