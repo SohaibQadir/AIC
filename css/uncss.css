@@ -994,7 +994,7 @@ a:hover, a:focus {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     padding: 200px 0;
-    color: #009102;
+    color: #186e09;
 }
 
 #main-slider .item {
@@ -1064,7 +1064,7 @@ a:hover, a:focus {
 #main-slider h1 {
     font-size: 68px;
     text-shadow: 0 3px rgba(0, 0, 0, 0.1);
-    color: #009102;
+    color: #186e09;
 }
 
 #contact .box {
@@ -1354,7 +1354,7 @@ a:hover, a:focus {
     padding: 15px 25px;
     font-size: 16px;
     line-height: 18px;
-    color: #009102;
+    color: #186e09;
 }
 
 .navbar-default .navbar-nav>li>a>i {
@@ -1362,7 +1362,7 @@ a:hover, a:focus {
 }
 
 .navbar-default .navbar-nav>li.active>a, .navbar-default .navbar-nav>li.active:focus>a, .navbar-default .navbar-nav>li.active:hover>a, .navbar-default .navbar-nav>li:hover>a, .navbar-default .navbar-nav>li:focus>a, .navbar-default .navbar-nav>li.active>a:focus, .navbar-default .navbar-nav>li.active:focus>a:focus, .navbar-default .navbar-nav>li.active:hover>a:focus, .navbar-default .navbar-nav>li:hover>a:focus, .navbar-default .navbar-nav>li:focus>a:focus {
-    background-color: #009102;
+    background-color: #186e09;
     color: #fff;
 }
 
